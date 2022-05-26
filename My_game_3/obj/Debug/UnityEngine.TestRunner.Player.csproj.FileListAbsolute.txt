@@ -1,0 +1,2 @@
+/Users/olga/Desktop/I am programer/Unity/My game 3/obj/Debug/UnityEngine.TestRunner.Player.csproj.AssemblyReference.cache
+/Users/olga/Desktop/I am programer/Unity/My game 3/obj/Debug/UnityEngine.TestRunner.Player.csproj.CoreCompileInputs.cache
