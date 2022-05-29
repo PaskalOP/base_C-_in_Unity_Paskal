@@ -18,107 +18,107 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/olga/Desktop/I am programer/Unity/My game 3
+/Users/olga/Documents/GitHub/base_C-_in_Unity_Paskal/My_game_3
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51153
-Successfully changed project path to: /Users/olga/Desktop/I am programer/Unity/My game 3
-/Users/olga/Desktop/I am programer/Unity/My game 3
+56776
+Successfully changed project path to: /Users/olga/Documents/GitHub/base_C-_in_Unity_Paskal/My_game_3
+/Users/olga/Documents/GitHub/base_C-_in_Unity_Paskal/My_game_3
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/olga/Desktop/I am programer/Unity/My game 3/Assets
+[Subsystems] Discovering subsystems at path /Users/olga/Documents/GitHub/base_C-_in_Unity_Paskal/My_game_3/Assets
 GfxDevice: creating device client; threaded=0
-2022-05-19 22:04:08.608 Unity[74545:2776931] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2022-05-19 22:04:08.608 Unity[74545:2776931] Metal devices available: 1
-2022-05-19 22:04:08.608 Unity[74545:2776931] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2022-05-19 22:04:08.608 Unity[74545:2776931] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2022-05-26 14:58:43.931 Unity[2793:3769220] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2022-05-26 14:58:43.931 Unity[2793:3769220] Metal devices available: 1
+2022-05-26 14:58:43.931 Unity[2793:3769220] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2022-05-26 14:58:43.931 Unity[2793:3769220] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56545
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56793
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.29f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002984 seconds.
+Registered in 0.000648 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.261 seconds
+- Completed reload, in  0.859 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1261ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (859ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1101ms)
+		EndReloadAssembly (680ms)
 			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (434ms)
+			SetupTypeCache (255ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (360ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (248ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (37ms)
-				ProcessInitializeOnLoadAttributes (206ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004165 seconds.
+Registered in 0.001518 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.646 seconds
+- Completed reload, in  1.349 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2647ms)
-		BeginReloadAssembly (694ms)
+	ReloadAssembly (1350ms)
+		BeginReloadAssembly (192ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (114ms)
-		EndReloadAssembly (1612ms)
-			LoadAssemblies (452ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1066ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (654ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (421ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (388ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (322ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000816 seconds.
+Validating Project structure ... 0.000715 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.001018 seconds.
+Upgrading shader files ...0.000962 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -130,320 +130,16 @@ RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/My game 3.sln because it has changed
-[C# Project] First difference on line 6
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/My game 3.sln:
-[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.csproj", "{BC8457CD-9178-6BE3-1023-15626B3DDCEA}"
-[C# Project]   007: EndProject
-[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{1EAE6FB4-650C-1143-6472-774E0EFBA0D7}"
-[C# Project]   009: EndProject
-[C# Project]   010: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.TextMeshPro.csproj", "{07022AE9-661B-6EEF-C110-AAE598DB9175}"
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/My game 3.sln:
-[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI.Tests", "UnityEngine.UI.Tests.csproj", "{94FC65CA-42D3-3315-9282-A50255C6D78A}"
-[C# Project]   007: EndProject
-[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.csproj", "{BC8457CD-9178-6BE3-1023-15626B3DDCEA}"
-[C# Project]   009: EndProject
-[C# Project]   010: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{1EAE6FB4-650C-1143-6472-774E0EFBA0D7}"
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEngine.TestRunner.csproj because it has changed
-[C# Project] First difference on line 50
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEngine.TestRunner.csproj:
-[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\TestRunner\TestListenerWrapper.cs" />
-[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\Utils\AssemblyProvider\ITestAssemblyProvider.cs" />
-[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\Utils\QuaternionEqualityComparer.cs" />
-[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\Utils\AssemblyProvider\IScriptingRuntimeProxy.cs" />
-[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityTestAssemblyRunner.cs" />
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEngine.TestRunner.csproj:
-[C# Project]   050:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\TestRunner\TestListenerWrapper.cs" />
-[C# Project]   051:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\Utils\AssemblyProvider\ITestAssemblyProvider.cs" />
-[C# Project]   052:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\Utils\QuaternionEqualityComparer.cs" />
-[C# Project]   053:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\Utils\AssemblyProvider\IScriptingRuntimeProxy.cs" />
-[C# Project]   054:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityTestAssemblyRunner.cs" />
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Timeline.csproj because it has changed
-[C# Project] First difference on line 50
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Timeline.csproj:
-[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Animation\AnimationPlayableAsset.cs" />
-[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Events\Signals\SignalAsset.cs" />
-[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Events\Signals\CustomSignalEventDrawer.cs" />
-[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Evaluation\RuntimeElement.cs" />
-[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Animation\AnimationPreviewUpdateCallback.cs" />
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Timeline.csproj:
-[C# Project]   050:      <Compile Include="Packages\com.unity.timeline\Runtime\Animation\AnimationPlayableAsset.cs" />
-[C# Project]   051:      <Compile Include="Packages\com.unity.timeline\Runtime\Events\Signals\SignalAsset.cs" />
-[C# Project]   052:      <Compile Include="Packages\com.unity.timeline\Runtime\Events\Signals\CustomSignalEventDrawer.cs" />
-[C# Project]   053:      <Compile Include="Packages\com.unity.timeline\Runtime\Evaluation\RuntimeElement.cs" />
-[C# Project]   054:      <Compile Include="Packages\com.unity.timeline\Runtime\Animation\AnimationPreviewUpdateCallback.cs" />
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEngine.UI.csproj because it has changed
-[C# Project] First difference on line 27
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEngine.UI.csproj:
-[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_29;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;PACKAGE_PHYSICS;PACKAGE_PHYSICS2D;PACKAGE_TILEMAP;PACKAGE_ANIMATION;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
-[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
-[C# Project]   029:     <WarningLevel>4</WarningLevel>
-[C# Project]   030:     <NoWarn>0169</NoWarn>
-[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEngine.UI.csproj:
-[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_29;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
-[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
-[C# Project]   029:     <WarningLevel>4</WarningLevel>
-[C# Project]   030:     <NoWarn>0169</NoWarn>
-[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.TextMeshPro.csproj because it has changed
-[C# Project] First difference on line 50
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.TextMeshPro.csproj:
-[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_InputField.cs" />
-[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextProcessingStack.cs" />
-[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextUtilities.cs" />
-[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SpriteGlyph.cs" />
-[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs" />
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.TextMeshPro.csproj:
-[C# Project]   050:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_InputField.cs" />
-[C# Project]   051:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_TextProcessingStack.cs" />
-[C# Project]   052:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_TextUtilities.cs" />
-[C# Project]   053:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_SpriteGlyph.cs" />
-[C# Project]   054:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAsset.cs" />
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEditor.TestRunner.csproj because it has changed
-[C# Project] First difference on line 50
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEditor.TestRunner.csproj:
-[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEditor.TestRunner\TestBuildAssemblyFilter.cs" />
-[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEditor.TestRunner\Api\ITestAdaptorFactory.cs" />
-[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEditor.TestRunner\TestRunner\Utils\IEditorLoadedTestAssemblyProvider.cs" />
-[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEditor.TestRunner\GUI\TestListTreeView\TestTreeViewItem.cs" />
-[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEditor.TestRunner\TestRun\Tasks\LegacyPlayModeRunTask.cs" />
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEditor.TestRunner.csproj:
-[C# Project]   050:      <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestBuildAssemblyFilter.cs" />
-[C# Project]   051:      <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\Api\ITestAdaptorFactory.cs" />
-[C# Project]   052:      <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRunner\Utils\IEditorLoadedTestAssemblyProvider.cs" />
-[C# Project]   053:      <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\GUI\TestListTreeView\TestTreeViewItem.cs" />
-[C# Project]   054:      <Compile Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\TestRun\Tasks\LegacyPlayModeRunTask.cs" />
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.PlasticSCM.Editor.csproj because it has changed
-[C# Project] First difference on line 50
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.PlasticSCM.Editor.csproj:
-[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.12\Editor\PlasticSCM\Views\Diff\GetClientDiffInfos.cs" />
-[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.12\Editor\PlasticSCM\Views\PendingChanges\Dialogs\EmptyCheckinMessageDialog.cs" />
-[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.12\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\AutoLogin.cs" />
-[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.12\Editor\PlasticSCM\PlasticProjectSettingsProvider.cs" />
-[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.12\Editor\PlasticSCM\UI\Tree\TreeViewItemIds.cs" />
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.PlasticSCM.Editor.csproj:
-[C# Project]   050:      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Views\Diff\GetClientDiffInfos.cs" />
-[C# Project]   051:      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Views\PendingChanges\Dialogs\EmptyCheckinMessageDialog.cs" />
-[C# Project]   052:      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\AutoLogin.cs" />
-[C# Project]   053:      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\PlasticProjectSettingsProvider.cs" />
-[C# Project]   054:      <Compile Include="Packages\com.unity.collab-proxy\Editor\PlasticSCM\UI\Tree\TreeViewItemIds.cs" />
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEditor.UI.csproj because it has changed
-[C# Project] First difference on line 27
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEditor.UI.csproj:
-[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_29;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;PACKAGE_PHYSICS;PACKAGE_PHYSICS2D;PACKAGE_ANIMATION;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
-[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
-[C# Project]   029:     <WarningLevel>4</WarningLevel>
-[C# Project]   030:     <NoWarn>0169</NoWarn>
-[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEditor.UI.csproj:
-[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_29;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
-[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
-[C# Project]   029:     <WarningLevel>4</WarningLevel>
-[C# Project]   030:     <NoWarn>0169</NoWarn>
-[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Services.Core.Editor.csproj because it has changed
-[C# Project] First difference on line 50
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Services.Core.Editor.csproj:
-[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\Networking\IHttpClient.cs" />
-[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\ProjectStateManagement\IServiceFlagRequest.cs" />
-[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\ServiceActivationPopup\Visuals\ExceptionVisual.cs" />
-[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\ServiceActivationPopup\Visuals\ServiceActivationPopupVisual.cs" />
-[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\ProjectStateManagement\ProjectStateRequest.cs" />
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Services.Core.Editor.csproj:
-[C# Project]   050:      <Compile Include="Packages\com.unity.services.core\Editor\Core\Networking\IHttpClient.cs" />
-[C# Project]   051:      <Compile Include="Packages\com.unity.services.core\Editor\Core\ProjectStateManagement\IServiceFlagRequest.cs" />
-[C# Project]   052:      <Compile Include="Packages\com.unity.services.core\Editor\Core\ServiceActivationPopup\Visuals\ExceptionVisual.cs" />
-[C# Project]   053:      <Compile Include="Packages\com.unity.services.core\Editor\Core\ServiceActivationPopup\Visuals\ServiceActivationPopupVisual.cs" />
-[C# Project]   054:      <Compile Include="Packages\com.unity.services.core\Editor\Core\ProjectStateManagement\ProjectStateRequest.cs" />
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Timeline.Editor.csproj because it has changed
-[C# Project] First difference on line 50
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Timeline.Editor.csproj:
-[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\inspectors\AnimationPlayableAssetInspector.cs" />
-[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Actions\Menus\MenuItemActionBase.cs" />
-[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Actions\TrackAction.cs" />
-[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Utilities\Range.cs" />
-[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Editor\Window\ViewModel\ScriptableObjectViewPrefs.cs" />
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Timeline.Editor.csproj:
-[C# Project]   050:      <Compile Include="Packages\com.unity.timeline\Editor\inspectors\AnimationPlayableAssetInspector.cs" />
-[C# Project]   051:      <Compile Include="Packages\com.unity.timeline\Editor\Actions\Menus\MenuItemActionBase.cs" />
-[C# Project]   052:      <Compile Include="Packages\com.unity.timeline\Editor\Actions\TrackAction.cs" />
-[C# Project]   053:      <Compile Include="Packages\com.unity.timeline\Editor\Utilities\Range.cs" />
-[C# Project]   054:      <Compile Include="Packages\com.unity.timeline\Editor\Window\ViewModel\ScriptableObjectViewPrefs.cs" />
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.VisualStudio.Editor.csproj because it has changed
-[C# Project] First difference on line 50
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.VisualStudio.Editor.csproj:
-[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.14\Editor\ProjectGeneration\ProjectGenerationFlag.cs" />
-[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.14\Editor\VisualStudioIntegration.cs" />
-[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.14\Editor\UnityInstallation.cs" />
-[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.14\Editor\KnownAssemblies.cs" />
-[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.14\Editor\UsageUtility.cs" />
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.VisualStudio.Editor.csproj:
-[C# Project]   050:      <Compile Include="Packages\com.unity.ide.visualstudio\Editor\ProjectGeneration\ProjectGenerationFlag.cs" />
-[C# Project]   051:      <Compile Include="Packages\com.unity.ide.visualstudio\Editor\VisualStudioIntegration.cs" />
-[C# Project]   052:      <Compile Include="Packages\com.unity.ide.visualstudio\Editor\UnityInstallation.cs" />
-[C# Project]   053:      <Compile Include="Packages\com.unity.ide.visualstudio\Editor\KnownAssemblies.cs" />
-[C# Project]   054:      <Compile Include="Packages\com.unity.ide.visualstudio\Editor\UsageUtility.cs" />
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.TextMeshPro.Editor.csproj because it has changed
-[C# Project] First difference on line 50
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.TextMeshPro.Editor.csproj:
-[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Editor\TMP_PackageUtilities.cs" />
-[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Editor\TMP_EditorPanel.cs" />
-[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Editor\DropdownOptionListDrawer.cs" />
-[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Editor\GlyphMetricsPropertyDrawer.cs" />
-[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Editor\TMP_EditorPanelUI.cs" />
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.TextMeshPro.Editor.csproj:
-[C# Project]   050:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_PackageUtilities.cs" />
-[C# Project]   051:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_EditorPanel.cs" />
-[C# Project]   052:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\DropdownOptionListDrawer.cs" />
-[C# Project]   053:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\GlyphMetricsPropertyDrawer.cs" />
-[C# Project]   054:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_EditorPanelUI.cs" />
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.CollabProxy.Editor.csproj because it has changed
-[C# Project] First difference on line 50
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.CollabProxy.Editor.csproj:
-[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.12\Editor\Collaborate\Models\IModel.cs" />
-[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.12\Editor\Collaborate\Views\IStartView.cs" />
-[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.12\Editor\Collaborate\Utilities\MenuUtilities.cs" />
-[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.12\Editor\Collaborate\Components\Menus\FloatingMenuItem.cs" />
-[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.12\Editor\Collaborate\Views\Adapters\IAdapter.cs" />
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.CollabProxy.Editor.csproj:
-[C# Project]   050:      <Compile Include="Packages\com.unity.collab-proxy\Editor\Collaborate\Models\IModel.cs" />
-[C# Project]   051:      <Compile Include="Packages\com.unity.collab-proxy\Editor\Collaborate\Views\IStartView.cs" />
-[C# Project]   052:      <Compile Include="Packages\com.unity.collab-proxy\Editor\Collaborate\Utilities\MenuUtilities.cs" />
-[C# Project]   053:      <Compile Include="Packages\com.unity.collab-proxy\Editor\Collaborate\Components\Menus\FloatingMenuItem.cs" />
-[C# Project]   054:      <Compile Include="Packages\com.unity.collab-proxy\Editor\Collaborate\Views\Adapters\IAdapter.cs" />
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Rider.Editor.csproj because it has changed
-[C# Project] First difference on line 27
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Rider.Editor.csproj:
-[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_29;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEST_FRAMEWORK;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
-[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
-[C# Project]   029:     <WarningLevel>4</WarningLevel>
-[C# Project]   030:     <NoWarn>0169</NoWarn>
-[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Rider.Editor.csproj:
-[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_29;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
-[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
-[C# Project]   029:     <WarningLevel>4</WarningLevel>
-[C# Project]   030:     <NoWarn>0169</NoWarn>
-[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.VSCode.Editor.csproj because it has changed
-[C# Project] First difference on line 50
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.VSCode.Editor.csproj:
-[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.4\Editor\VSCodeDiscovery.cs" />
-[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.4\Editor\ProjectGeneration\StringUtils.cs" />
-[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.4\Editor\ProjectGeneration\GUIDGenerator.cs" />
-[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.4\Editor\ProjectGeneration\AssemblyNameProvider.cs" />
-[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.ide.vscode@1.2.4\Editor\ProjectGeneration\ProjectGeneration.cs" />
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.VSCode.Editor.csproj:
-[C# Project]   050:      <Compile Include="Packages\com.unity.ide.vscode\Editor\VSCodeDiscovery.cs" />
-[C# Project]   051:      <Compile Include="Packages\com.unity.ide.vscode\Editor\ProjectGeneration\StringUtils.cs" />
-[C# Project]   052:      <Compile Include="Packages\com.unity.ide.vscode\Editor\ProjectGeneration\GUIDGenerator.cs" />
-[C# Project]   053:      <Compile Include="Packages\com.unity.ide.vscode\Editor\ProjectGeneration\AssemblyNameProvider.cs" />
-[C# Project]   054:      <Compile Include="Packages\com.unity.ide.vscode\Editor\ProjectGeneration\ProjectGeneration.cs" />
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEngine.TestRunner.Player.csproj because it has changed
-[C# Project] First difference on line 50
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEngine.TestRunner.Player.csproj:
-[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\TestRunner\TestListenerWrapper.cs" />
-[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\Utils\AssemblyProvider\ITestAssemblyProvider.cs" />
-[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\Utils\QuaternionEqualityComparer.cs" />
-[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\Utils\AssemblyProvider\IScriptingRuntimeProxy.cs" />
-[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityTestAssemblyRunner.cs" />
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEngine.TestRunner.Player.csproj:
-[C# Project]   050:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\TestRunner\TestListenerWrapper.cs" />
-[C# Project]   051:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\Utils\AssemblyProvider\ITestAssemblyProvider.cs" />
-[C# Project]   052:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\Utils\QuaternionEqualityComparer.cs" />
-[C# Project]   053:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\Utils\AssemblyProvider\IScriptingRuntimeProxy.cs" />
-[C# Project]   054:      <Compile Include="Packages\com.unity.test-framework\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityTestAssemblyRunner.cs" />
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Timeline.Player.csproj because it has changed
-[C# Project] First difference on line 50
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Timeline.Player.csproj:
-[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Animation\AnimationPlayableAsset.cs" />
-[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Events\Signals\SignalAsset.cs" />
-[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Events\Signals\CustomSignalEventDrawer.cs" />
-[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Evaluation\RuntimeElement.cs" />
-[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.timeline@1.4.8\Runtime\Animation\AnimationPreviewUpdateCallback.cs" />
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.Timeline.Player.csproj:
-[C# Project]   050:      <Compile Include="Packages\com.unity.timeline\Runtime\Animation\AnimationPlayableAsset.cs" />
-[C# Project]   051:      <Compile Include="Packages\com.unity.timeline\Runtime\Events\Signals\SignalAsset.cs" />
-[C# Project]   052:      <Compile Include="Packages\com.unity.timeline\Runtime\Events\Signals\CustomSignalEventDrawer.cs" />
-[C# Project]   053:      <Compile Include="Packages\com.unity.timeline\Runtime\Evaluation\RuntimeElement.cs" />
-[C# Project]   054:      <Compile Include="Packages\com.unity.timeline\Runtime\Animation\AnimationPreviewUpdateCallback.cs" />
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEngine.UI.Player.csproj because it has changed
-[C# Project] First difference on line 27
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEngine.UI.Player.csproj:
-[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_29;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;PACKAGE_PHYSICS;PACKAGE_PHYSICS2D;PACKAGE_TILEMAP;PACKAGE_ANIMATION;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
-[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
-[C# Project]   029:     <WarningLevel>4</WarningLevel>
-[C# Project]   030:     <NoWarn>0169</NoWarn>
-[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/UnityEngine.UI.Player.csproj:
-[C# Project]   027:     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_29;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
-[C# Project]   028:     <ErrorReport>prompt</ErrorReport>
-[C# Project]   029:     <WarningLevel>4</WarningLevel>
-[C# Project]   030:     <NoWarn>0169</NoWarn>
-[C# Project]   031:     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-[C# Project] Writing /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.TextMeshPro.Player.csproj because it has changed
-[C# Project] First difference on line 50
-
-[C# Project] Current /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.TextMeshPro.Player.csproj:
-[C# Project]   050:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_InputField.cs" />
-[C# Project]   051:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextProcessingStack.cs" />
-[C# Project]   052:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextUtilities.cs" />
-[C# Project]   053:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SpriteGlyph.cs" />
-[C# Project]   054:      <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs" />
-
-[C# Project] New /Users/olga/Desktop/I am programer/Unity/My game 3/Unity.TextMeshPro.Player.csproj:
-[C# Project]   050:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_InputField.cs" />
-[C# Project]   051:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_TextProcessingStack.cs" />
-[C# Project]   052:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_TextUtilities.cs" />
-[C# Project]   053:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_SpriteGlyph.cs" />
-[C# Project]   054:      <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAsset.cs" />
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.2 MB.
-System memory in use after: 175.3 MB.
+Unloading 1516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.0 MB.
+System memory in use after: 174.1 MB.
 
-Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 1978.
-Total: 5.200187 ms (FindLiveObjects: 0.198867 ms CreateObjectMapping: 0.075451 ms MarkObjects: 4.227657 ms  DeleteObjects: 0.696906 ms)
+Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 1990.
+Total: 3.755074 ms (FindLiveObjects: 0.126370 ms CreateObjectMapping: 0.051622 ms MarkObjects: 3.094791 ms  DeleteObjects: 0.481408 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -457,179 +153,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/NewBehaviourScript.cs
-  artifactKey: Guid(14b892e638f4d4e978c41fedb6a7ccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewBehaviourScript.cs using Guid(14b892e638f4d4e978c41fedb6a7ccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115b916a2d3d1600fc093bbd5d3c99fc') in 0.626302 seconds 
-  Import took 0.635275 seconds .
+  path: Assets/Materials
+  artifactKey: Guid(052a4733ead69498b867cdb4ea35d86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(052a4733ead69498b867cdb4ea35d86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdcff1ffc3e27f081268a127b3baeee') in 0.011286 seconds 
+  Import took 0.015374 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001449 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.324 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1324ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (1100ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (409ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (393ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 179.0 MB.
-System memory in use after: 179.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1981.
-Total: 3.022301 ms (FindLiveObjects: 0.128907 ms CreateObjectMapping: 0.048019 ms MarkObjects: 2.820996 ms  DeleteObjects: 0.023082 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002151 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.214 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1214ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1001ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (375ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (352ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 179.1 MB.
-System memory in use after: 179.2 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1983.
-Total: 2.742471 ms (FindLiveObjects: 0.131722 ms CreateObjectMapping: 0.046915 ms MarkObjects: 2.541950 ms  DeleteObjects: 0.021165 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001998 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.258 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1258ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (67ms)
-		EndReloadAssembly (1045ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (391ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (362ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (229ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 179.3 MB.
-System memory in use after: 179.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1985.
-Total: 3.033496 ms (FindLiveObjects: 0.163969 ms CreateObjectMapping: 0.070414 ms MarkObjects: 2.776940 ms  DeleteObjects: 0.021207 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

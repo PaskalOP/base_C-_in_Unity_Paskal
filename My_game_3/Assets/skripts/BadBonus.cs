@@ -1,6 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using Random = UnityEngine.Random;
+
 
 namespace Maze
 {
@@ -10,39 +12,37 @@ namespace Maze
         private float hightFly;
         private float speedRotation;
 
+        // создаем событие на которое будет реагировать игрок (меняет размер и скорость замедляет)
+        public event Action<string, Color> OnCoughtPl = delegate (string str, Color color) { };
+
         private void Awake()
         {
-            speedRotation = Random.Range(1f, 5f);
-            hightFly = Random.Range(13f, 40f);
+            speedRotation = Random.Range(3f, 8f);
+            hightFly = Random.Range(2f, 6f);
+            _transform = GetComponent<Transform>();
         }
         public override void Interaction()
         {
-
+            OnCoughtPl.Invoke(gameObject.name, _color);
         }
 
-        private void OnTriggerEnter(Collider other)
-        {
-
-        }
-        public void Start()
-        {
-
-        }
-
+       
 
         public override void Update()
         {
             Fly();
             Rotate();
-
+           // Debug.Log("Апдейт бед бонуса");
         }
         public void Fly()
         {
             _transform.position = new Vector3(_transform.position.x, Mathf.PingPong(Time.time, hightFly), _transform.position.z);
+           // Debug.Log("Сработал флай бед бонуса");
         }
         public void Rotate()
         {
             _transform.Rotate(Vector3.up * (Time.deltaTime * speedRotation), Space.World);
+           // Debug.Log("Сработал ротейт  бед бонуса");
         }
     }
     

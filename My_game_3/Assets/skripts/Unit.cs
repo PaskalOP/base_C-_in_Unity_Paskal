@@ -11,6 +11,7 @@ namespace Maze
         public static float Speed =5 ;
         public static float Health = 100;
         public bool isDead;
+       
 
         public abstract void Move(float x, float y, float z);
        

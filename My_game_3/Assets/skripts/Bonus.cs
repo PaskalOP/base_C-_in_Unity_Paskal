@@ -13,6 +13,9 @@ namespace Maze
         //определяем расположение обьекта
         public Transform _transform;
 
+        //задаем поле для цвета бонуса, который будет меняться
+        protected Color _color;
+
         //Свойство как именно включается и выключается наш обьект
         public bool IsInteractable
         {
@@ -26,17 +29,14 @@ namespace Maze
 
         }
 
-        // получаем ссылку на трансформ обьекта
-        private void Awake()
-        {
-            _transform = GetComponent<Transform>();
-        }
+       
 
         //включаем рендер и коллаидр бонуса
         public void Start()
         {
-            IsInteractable = true;
-            
+            _color = Random.ColorHSV();
+            if (TryGetComponent(out Renderer rer))
+                rer.sharedMaterial.color = _color;
         }
 
         public abstract void Update();
