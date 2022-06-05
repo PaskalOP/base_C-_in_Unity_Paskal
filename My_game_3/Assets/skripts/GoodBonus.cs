@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 
 namespace Maze
 {
-     public class GoodBonus : Bonus, IFly, IFlick
+     public class GoodBonus : Bonus, IFly, IFlick, IExecute
     {
         //поля высоты полета  и скорости вращения
         private float hightFly=3f;

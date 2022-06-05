@@ -2,6 +2,7 @@ using System.Collections;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace Maze
 {
@@ -15,6 +16,18 @@ namespace Maze
     //свойства
     public object Current => _interactiveObject[_index]; // получение индекса интерактивного обекта
         public int Length => _interactiveObject.Length; //получение длины массива интерактивных обектов
+
+        public ListexecutivObject()
+        {
+            Bonus[] listBonus = Object.FindObjectsOfType<Bonus>();
+            for (int i = 0; i< listBonus.Length; i++)
+            {
+                if(listBonus[i] is IExecute execute)
+                {
+                    AddExecuteObject(execute);
+                }
+            }
+        }
 
         IEnumerator IEnumerable.GetEnumerator()
         {

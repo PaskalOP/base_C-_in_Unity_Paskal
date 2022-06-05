@@ -12,7 +12,7 @@ namespace Maze
         private float hightFly;
         private float speedRotation;
 
-        // создаем событие на которое будет реагировать игрок (меняет размер и скорость замедляет)
+        // создаем событие на которое будет реагировать игрок 
         public event Action<string, Color> OnCoughtPl = delegate (string str, Color color) { };
 
         private void Awake()

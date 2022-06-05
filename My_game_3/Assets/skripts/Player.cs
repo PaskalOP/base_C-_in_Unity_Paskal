@@ -20,10 +20,10 @@ namespace Maze
             _rb = GetComponent<Rigidbody>();
             isDead = false;
             Health = 100;
-            _material = GetComponent<Renderer>().material;
+           
             goodBonus.TakeGoodBonus += NormalScale;
             badBonus.OnCoughtPl += ChangeColor;
-            Debug.Log("Awake player DONE");
+            //Debug.Log("Awake player DONE");
         }
 
         public override void Move(float x, float y, float z)
@@ -38,8 +38,9 @@ namespace Maze
 
        public void ChangeColor (string name, Color color)
         {
+            _material = GetComponent<Renderer>().material;
             _material.color = Color.blue;
-            _transform.localScale = new Vector3(5, 5, 5);
+            _transform.localScale = new Vector3(3, 3, 3);
 
             Debug.Log("Цвет  и размер сменился");
             
