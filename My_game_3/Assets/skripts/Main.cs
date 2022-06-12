@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+
 namespace Maze
 {
     public class Main : MonoBehaviour
@@ -24,6 +25,7 @@ namespace Maze
         [SerializeField] private Button _restart;
 
         private CameraController _cameraController;
+
        
 
         void Awake()
@@ -32,37 +34,36 @@ namespace Maze
             _inputController = new InputController(_player.GetComponent<Unit>());
             _interactiveObject = new ListexecutivObject();
             _interactiveObject.AddExecuteObject(_inputController);
-            
-           
-            _reference = new Reference();
-             _viewBonus = new ViewBonus(_reference.BonusText, _reference.YouWinText);
-             _viewGameOver = new ViewGameOver(_reference.GameOverText);
 
-             _restart.onClick.AddListener(RestartGame);
-             _restart.gameObject.SetActive(false);
+
+            _reference = new Reference();
+            _viewBonus = new ViewBonus(_reference.BonusText, _reference.YouWinText);
+            _viewGameOver = new ViewGameOver(_reference.GameOverText);
+
+            _restart.onClick.AddListener(RestartGame);
+            _restart.gameObject.SetActive(false);
 
             _cameraController = new CameraController(_player.transform, _reference.MainCamera.transform);
             _interactiveObject.AddExecuteObject(_cameraController);
 
             foreach (var item in _interactiveObject)
-             {
+            {
                 if (item is GoodBonus goodBonus)
                 {
                     goodBonus.TakeGoodBonus += AddBonus;
 
-                   
+
                 }
-                    
-                if(item is BadBonus badBonus)
+
+                if (item is BadBonus badBonus)
                 {
-                   
+
                     badBonus.OnCoughtPl += _viewGameOver.GameOver;
                     badBonus.OnCoughtPl += GameEnd;
                 }
-             }
+            }
 
             
-
         }
 
             public void GameEnd(string name, Color color)
@@ -70,7 +71,9 @@ namespace Maze
            
             _restart.gameObject.SetActive(true);
             Time.timeScale = 0f;
-            
+            string str = name.ExtenString();
+            Debug.Log(str);
+            Debug.Log(name);
 
         }
             void Update()
@@ -92,15 +95,18 @@ namespace Maze
 
     
         private void AddBonus(int _point)
-            {
+        {
                 _bonusCount += _point;
             _viewBonus.Dysplay(_bonusCount);
             if(_bonusCount==5)
                 _restart.gameObject.SetActive(true);
-
+            
 
         }
-      
+
+        
+
+        
             
     }
 
