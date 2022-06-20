@@ -9,7 +9,7 @@ namespace Maze
         private readonly Unit _player;
         private float horizontal;
         private float vertical;
-
+        private readonly BadBonus _badBonus;
 
         public InputController(Unit player)
         {
@@ -21,6 +21,12 @@ namespace Maze
             horizontal = Input.GetAxis("Horizontal");
             vertical = Input.GetAxis("Vertical");
             _player.Move(horizontal, 0, vertical);
+
+            if (Input.GetKeyDown(KeyCode.Q))
+                _player.SavePlayer();
+
+           
+
         }
     }
 }

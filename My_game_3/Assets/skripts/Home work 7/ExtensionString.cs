@@ -9,10 +9,10 @@ namespace Maze
     {
         public static String ExtenString(this string str)
         {
-            char[] arrChar;
+           // char[] arrChar;
 
-            arrChar = str.ToCharArray();
-           int count = arrChar.Length;
+           // arrChar = str.ToCharArray();
+           int count = str.Length;
             string massage = ("Количество знаков в строке: " + count);
             return massage;
 

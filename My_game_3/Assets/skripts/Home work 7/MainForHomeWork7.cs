@@ -7,7 +7,7 @@ namespace Maze
     public class MainForHomeWork7 : MonoBehaviour
     {
         private List<int> _listHomeWork7;
-        
+       // private Dictionary<int, string> _dictionaryList;
 
         void Awake()
         {
@@ -24,9 +24,17 @@ namespace Maze
 
             CountElements(_listHomeWork7);
 
-            
+           /* _dictionaryList = new Dictionary<int, string>()
+            {
+                [1] = "Розовый слоник",
+                [2]="Зеленая пандочка",
+                [1] = "Радужная муха",
+                [2] = "Розовый слоник"
 
-    }
+            };
+
+            DictionaryElements(_dictionaryList);*/
+        }
         private void CountElements(List<int> list)
         {
             list = _listHomeWork7;
@@ -47,6 +55,40 @@ namespace Maze
 
             }
         }
+        /*private void DictionaryElements(Dictionary<int, string> list)
+        {
+            list = _dictionaryList;
+
+            for (int i = 0; i < list.Keys.Count; i++)
+            {
+                int countElements = 0;
+                for (int l = 0; l < list.Keys.Count; l++)
+                {
+                    if (list[i] == list[l])
+                    {
+                        countElements++;
+
+                    }
+                }
+                string mass = ("Элемент " + _dictionaryList[i] + " встречается  " + countElements + " раз в листе");
+                Debug.Log(mass);
+            }
+            for (int i = 0; i < list.Values.Count; i++)
+            {
+                int countElements = 0;
+                for (int l = 0; l < list.Values.Count; l++)
+                {
+                    if (list[i] == list[l])
+                    {
+                        countElements++;
+
+                    }
+                }
+                string mass = ("Элемент " + _dictionaryList[i] + " встречается  " + countElements + " раз в листе");
+                Debug.Log(mass);
+            }
+        }*/
+
 
     }
 }
