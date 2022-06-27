@@ -16,6 +16,8 @@ namespace Maze
         PlayerData SinglePlayerData = new PlayerData();
 
         private ISaveData _data;
+        [SerializeField] private Transform _playerDot;
+
         private void Awake()
         {
             
@@ -45,15 +47,17 @@ namespace Maze
             }
             else
                 Debug.Log("No RigidBody");
-            SinglePlayerData.PlayerPosition = _transform.position;   
-           
+            SinglePlayerData.PlayerPosition = _transform.position;
+            _playerDot.position = new Vector3(_transform.position.x, _playerDot.position.y, _transform.position.z);  
+
+
         }
 
        public void ChangeColor (string name, Color color)
         {
             _material = GetComponent<Renderer>().material;
             _material.color = Color.blue;
-            _transform.localScale = new Vector3(3, 3, 3);
+            _transform.localScale = new Vector3(2, 2, 2);
             SinglePlayerData.PlayerColor = _material.color;
             SinglePlayerData.PlayerScale = _transform.localScale;
 
@@ -62,7 +66,7 @@ namespace Maze
         }
         private void NormalScale (int i)
         {
-            _transform.localScale = new Vector3(2, 2, 2);
+            _transform.localScale = new Vector3(1, 1, 1);
             SinglePlayerData.PlayerScale = _transform.localScale;
         }
 
